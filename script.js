@@ -176,4 +176,3 @@ function newGame() {
         playGame = true; // Properly assign boolean
     });
 }
-
