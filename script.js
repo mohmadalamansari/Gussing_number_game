@@ -157,7 +157,9 @@ function endGame() {
     userInput.value = '';
     userInput.setAttribute('disabled', '');
     p.classList.add('button');
-    p.innerHTML = `<h2 id='newGame'>Start New Game</h2>`; // Fix id placement
+    p.innerHTML = `<h2 id='newGame'><button>click here to start again</button></h2>`; // Fix id placement 
+    
+    // p.onpointerenter()
     startOver.appendChild(p);
     playGame = false; // Properly assign boolean
     newGame();
