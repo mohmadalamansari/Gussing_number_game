@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,23 +8,26 @@
     <link rel="stylesheet" href="style.css">
     <!-- <link rel="stylesheet" href="../styles.css"> -->
 </head>
-
-<body style="background-color:#212121; color:#fff;">
-    <!-- <nav>
-        <a href="/" aria-current="page">Home</a>
-    </nav> -->
-
-    <div id="wrapper">
-        <h1>Number guessing game</h1>
-        <p>Try and guess a random number between 1 and 100.</p>
-        <p>You have 10 attempts to guess the right number.</p>
+<details>
+    <summary> click 
+        <img src="https://images.unsplash.com/photo-1486572788966-cfd3df1f5b42?q=80&w=2072&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="image" style="height:50px">
+    </summary>
+    <body style="background-color:#212121; color:#fff;">
+        <!-- <nav>
+            <a href="/" aria-current="page">Home</a>
+        </nav> -->
+        
+        <div id="wrapper">
+            <h1>Number guessing game</h1>
+            <p>Try and guess a random number between 1 and 100.</p>
+            <p>You have 10 attempts to guess the right number.</p>
         </br>
         <form class="form">
             <label2 for="guessField" id="guess">Guess a number</label>
                 <input type="text" id="guessField" class="guessField" placeholder="Enter  Number ">
                 <input type="submit" id="subt" value="Submit guess" class="guessSubmit">
         </form>
-
+        
         <div class="resultParas">
             <p>Previous Guesses: <span class="guesses"></span></p>
             <p>Guesses Remaining: <span class="lastResult">10</span></p>
@@ -34,5 +36,5 @@
     </div>
     <script src="script.js"></script>
 </body>
-
+</details>
 </html>
