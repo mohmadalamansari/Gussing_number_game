@@ -1,0 +1,1 @@
+The Number Guessing Game is a simple, fun, and interactive game where a player tries to guess a randomly generated number within a certain range (typically between 1 and 100). The game provides feedback on each guess, helping the player to zero in on the correct number.
